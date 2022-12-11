@@ -1,0 +1,22 @@
+<html>
+    <head>
+        <title>IT211 - Guessing Game</title>
+    </head>
+    <body>
+        <h1>Guessing Game</h1>
+        <div>
+            <span>Input a number between 1 and 100</span>
+            <input type="number" id="guess" min="1" max="100">
+            <button id="guess-btn">Make Guess</button>
+        </div>
+        <div>
+            You have <span id="guesses-left">X</span> guesses left.
+        </div>
+        <div id="previous-guesses">
+            <h3 id="prev-guess-header" style="visibility: hidden; text-decoration: underline">
+                Previous Guesses
+            </h3>
+        </div>
+        <script src="JSDOM_script.js"></script>
+    </body>
+</html>
